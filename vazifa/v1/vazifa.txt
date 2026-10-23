@@ -1,0 +1,57 @@
+1-masala. Sportchi profili
+Athlete nomli klass yarating. Sportchining ismi, sport turi va yoshi atributlarda saqlansin. show_info() metodi barcha ma’lumotlarni chiqarsin.
+
+Namuna
+
+athlete = Athlete('Ali', 'Futbol', 20)
+Kutiladigan natija
+
+Ism: Ali
+Sport turi: Futbol
+Yosh: 20
+2-masala. Do‘stlar ro‘yxati
+Contact klassini yarating. Unda ism va telefon raqami bo‘lsin. update_phone(new_phone) metodi telefon raqamini yangilasin, show_info() esa joriy ma’lumotlarni chiqarsin.
+
+Namuna
+
+contact = Contact('Malika', '901234567')
+contact.update_phone('931112233')
+contact.show_info()
+Kutiladigan natija
+
+Ism: Malika
+Telefon: 931112233
+3-masala. Doira hisoblagichi
+Circle klassini yarating. U radius atributiga ega bo‘lsin. area() metodi doira yuzini hisoblasin (π = 3.14), diameter() esa diametrni qaytarsin.
+
+Namuna
+
+circle = Circle(5)
+print(circle.area())
+print(circle.diameter())
+Kutiladigan natija
+
+78.5
+10
+4-masala. Kinoteatr chiptasi
+Ticket klassini yarating. Film nomi, chipta narxi va chipta soni saqlansin. total_cost() metodi umumiy narxni qaytarsin. show_info() film va xarajat haqida ma’lumot chiqarsin.
+
+Namuna
+
+ticket = Ticket('Avatar', 40000, 3)
+print(ticket.total_cost())
+Kutiladigan natija
+
+120000
+5-masala. O‘yinchi energiyasi
+Player klassini yarating. O‘yinchining ismi va energiyasi bo‘lsin; boshlang‘ich energiya 100. use_energy(amount) energiyani kamaytirsin, ammo 0 dan pastga tushirmasin. show_status() ismi va qolgan energiyani chiqarsin.
+
+Namuna
+
+player = Player('Hero')
+player.use_energy(35)
+player.show_status()
+Kutiladigan natija
+
+O‘yinchi: Hero
+Energiya: 65
